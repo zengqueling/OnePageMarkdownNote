@@ -2,8 +2,6 @@
 
 OnePageMarkdownNote 是一个轻量级的、单页的 PHP 笔记应用，它支持 Markdown 语法，并且能够保留笔记内容在服务器上。这个应用旨在为需要快速记录和查看笔记的用户提供一个简洁、高效的解决方案。
 
-演示地址：https://md.zengqueling.com 
-
 以下是 OnePageMarkdownNote 的一些核心特性：
 
 ## 特性概览
