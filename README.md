@@ -24,7 +24,7 @@ OnePageMarkdownNote 是一个轻量级的、单页的 PHP 笔记应用，它支�
 
 ## 技术栈
 
-- **PHP**：后端逻辑处理。
+- **PHP**：后端逻辑处理（也可以换成Node.js等）。
 - **JavaScript**：前端交互和动态内容渲染。
 - **Markdown**：文本标记语言，用于编写和格式化笔记内容。
 - **Mermaid**：用于生成图表和流程图的 JavaScript 库。
