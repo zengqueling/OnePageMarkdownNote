@@ -104,11 +104,24 @@ textarea {
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    flex-direction: column; /* 切换为上下布局 */
     width: 100%;
   }
-  #save-btn {
-    width: 100%;
+  textarea, #preview {
+    height: auto; /* 调整高度适应内容 */
+  }
+  #save-btn, .file-list-item {
+    width: 100%; /* 按钮和文件列表宽度一致 */
+  }
+  #app {
+    padding: 1rem; /* 移动端内容间距优化 */
+  }
+  body {
+    min-width: 100%; /* 手机端防止出现滚动条 */
+  }
+  textarea:focus {
+    outline: none;
+    transform: none; /* 禁止手机点击时的放大效果 */
   }
 }
 
